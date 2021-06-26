@@ -1020,8 +1020,8 @@ $(function() {
                 </br>
                 <strong> ${book.authors} </strong>
                   </br>
-                 <strong> ${book.best_price} </strong>
-                
+                 <strong>Price: ${book.best_price} </strong>
+      		Wanted: ${book.wanted}          
             </div>`)
         return html
         // return JSON.stringify(book)
